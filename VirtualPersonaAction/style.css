@@ -1,0 +1,77 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.hero-section {
+    background: url('https://e0.pxfuel.com/wallpapers/382/151/desktop-wallpaper-anime-scenery-dark-scenic.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section .container {
+    border-radius: 10px;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.main-section {
+    background: url('https://image.cdn2.seaart.ai/2023-08-01/51410304675909/d7bd7f26d06026c8c9c1a8eaefaf5c5081caca59_high.webp') no-repeat center center/cover;
+    background-size: cover;
+    padding-top: 50px;
+    min-height: 100vh; /* Ensure it covers the viewport height */
+}
+
+
+.intro-section h1, .intro-section p {
+    color: #aaccf8; /* White text color for heading and paragraph */
+}
+
+
+.album-section {
+    background: url('https://static.vecteezy.com/system/resources/previews/007/076/713/original/gradient-navy-blue-light-background-free-vector.jpg') no-repeat center center/cover;
+    background-size: cover;
+    padding: 50px 0;
+    min-height: 100vh; /* Ensure it covers the viewport height */
+}
+
+.card {
+    background: url('https://static.vecteezy.com/system/resources/previews/007/076/713/original/gradient-navy-blue-light-background-free-vector.jpg') no-repeat center center/cover; /* Black background for the card */
+    color: #fff; /* White text color for card text */
+}
+
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover; /* Ensure the image covers the card without distortion */
+}
+
+.card-body {
+    padding: 20px;
+}
+
+
+/*MISCONCEPTION*/
+
+.misconceptions-section {
+    background: url('https://wallpapercave.com/wp/wp7658569.jpg') no-repeat center center/cover;
+    color: #fff; /* White text color for all text inside this section */
+    padding: 50px 0;
+}
+
+.misconceptions-section h2 {
+    color: #fff; /* White color for the section heading */
+}
+
+.feature-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background to feature icons for better contrast */
+}
+
+.feature h3, .feature p {
+    color: #fff; /* Ensure text inside feature items is white */
+}
